@@ -55,7 +55,7 @@ Customers are segmented into three groups based on interpurchase behavior:
 repository/
 ├── README.md
 ├── notebooks/
-│   └── olist_growth_performance_eda.ipynb               ← exploratory data analysis
+│   └── Olist_Growth_Performance_EDA.ipynb               ← exploratory data analysis
 ├── sql/
 │   └── olist_growth_performance_queries.sql             ← data extraction queries
 ├── excel/
@@ -69,6 +69,7 @@ repository/
 ## How to Navigate This Repository
 
 1. Start with this README for project context and key findings.
-2. Open `notebooks/eda.ipynb` for a detailed walkthrough of the data exploration process, including missing value handling, distribution analysis, and outlier assessment.
-3. Review `sql/queries.sql` to understand how the data was extracted and structured before analysis.
-4. Read `reports/growth_analysis.pdf` for the full analysis and business implications.
+2. Open `notebooks/Olist_Growth_Performance_EDA.ipynb` for a detailed walkthrough of the data exploration process, including missing value handling, distribution analysis, and outlier assessment.
+3. Review `sql/olist_growth_performance_queries.sql` to understand how the data was extracted and structured before analysis.
+4. Open `excel/olist_growth_performance_analysis.xlsx` to explore the analysis and aggregations that form the basis of the findings. The workbook is organized into separate sheets by business question, covering revenue contribution gap between new and existing customers, cohort decay after the first purchase, revenue retention vs. customer retention, behavioral expansion among existing customers, and structural churn leakage based on purchase inactivity.
+5. Read `reports/olist_growth_performance_analysis_report.pdf` for the full analysis and business implications.
